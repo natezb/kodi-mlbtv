@@ -1,0 +1,42 @@
+<settings>
+  <category label="General">
+    <setting id="debug" type="select" label="Debug Level" values="Off|Critical|Error|Warning|Info|Debug" default="Off"/>
+    <setting id="bitrate" type="select" label="Max Bitrate" values="2500K|1800K|1200K|800K|450K" default="2500K"/>
+  </category>
+  <category label="Account">
+    <setting id="email" type="text" label="Email" default=""/>
+    <setting id="password" type="text" label="Password" default="" option="hidden"/>
+  </category>  
+  <category label="Favorite Teams">
+      <setting id="109" label="Arizona Diamondbacks" type="bool"/>
+      <setting id="144" label="Atlanta Braves" type="bool"/>
+      <setting id="110" label="Baltimore Orioles" type="bool"/>
+      <setting id="111" label="Boston Red Sox" type="bool"/>
+      <setting id="112" label="Chicago Cubs" type="bool"/>
+      <setting id="145" label="Chicago White Sox" type="bool"/>
+      <setting id="113" label="Cincinnati Reds" type="bool"/>
+      <setting id="114" label="Cleveland Indians" type="bool"/>
+      <setting id="115" label="Colorado Rockies" type="bool"/>
+      <setting id="116" label="Detroit Tigers" type="bool"/>
+      <setting id="146" label="Florida Marlins" type="bool"/>
+      <setting id="117" label="Houston Astros" type="bool"/>
+      <setting id="118" label="Kansas City Royals" type="bool"/>
+      <setting id="108" label="Los Angeles Angels" type="bool"/>
+      <setting id="119" label="Los Angeles Dodgers" type="bool"/>
+      <setting id="158" label="Milwaukee Brewers" type="bool"/>
+      <setting id="142" label="Minnesota Twins" type="bool"/>
+      <setting id="121" label="New York Mets" type="bool"/>
+      <setting id="147" label="New York Yankees" type="bool"/>
+      <setting id="133" label="Oakland Athletics" type="bool"/>
+      <setting id="143" label="Philadelphia Phillies" type="bool"/>
+      <setting id="134" label="Pittsburgh Pirates" type="bool"/>
+      <setting id="135" label="San Diego Padres" type="bool"/>
+      <setting id="137" label="San Francisco Giants" type="bool"/>
+      <setting id="136" label="Seattle Mariners" type="bool"/>
+      <setting id="138" label="St Louis Cardinals" type="bool"/>
+      <setting id="139" label="Tampa Bay Rays" type="bool"/>
+      <setting id="140" label="Texas Rangers" type="bool"/>
+      <setting id="141" label="Toronto Blue Jays" type="bool"/>
+      <setting id="120" label="Washington Nationals" type="bool"/>
+  </category>
+</settings>
